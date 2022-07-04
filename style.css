@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Quantico;
+  src: url(https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap) format("truetype");
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -16,4 +20,12 @@
 }
 html{
   font-size: 62.5%;
+  font-family: 'Quantico', sans-serif;
+}
+.container{
+  width: 100%;
+/*  background: linear-gradient(180deg, #03045E 0%, rgba(0, 161, 151, 0) 99.99%, rgba(202, 240, 248, 0) 100%); */
+}
+.container__title{
+  margin: 0 auto;
 }
