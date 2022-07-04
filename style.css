@@ -1,14 +1,18 @@
-<<<<<<< HEAD
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-=======
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
->>>>>>> 8da334d3cc083c6bdaa17011a6f1310dac500b46
+}
+:root{
+  --darkest-blue: #03045e;
+  --dark-blue: #023e8a;
+  --cobalt:#0077b6;
+  --mid-blue:#0096c7;
+  --cian-blue:#00b4d8;
+  --cian:#48cae4;
+  --light-cian:#90e0ef;
+  --lighter-cian:#ade8f4;
+  --cianest:#caf0f8;
 }
 html{
   font-size: 62.5%;
