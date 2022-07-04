@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+=======
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+>>>>>>> 8da334d3cc083c6bdaa17011a6f1310dac500b46
 }
 html{
   font-size: 62.5%;
