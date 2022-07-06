@@ -1,6 +1,6 @@
 @font-face {
   font-family: Quantico;
-  src: url(https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap) format("truetype");
+  src: url(https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap) format("truetype") local(Quantico);
 }
 *{
     box-sizing: border-box;
@@ -23,7 +23,7 @@ html{
   font-family: 'Quantico', sans-serif;
 }
 body{
-  background: linear-gradient(180deg, #03045E 0%, rgba(0, 161, 151, 0) 99.99%, rgba(202, 240, 248, 0) 100%) center no-repeat;
+  background: var(--cianest) center no-repeat;
   min-width: 320px;
 }
 .header__container{
@@ -42,7 +42,7 @@ header{
   margin-top: 5.8rem;
   text-align: center;
   font-size: 3.6rem;
-  background: linear-gradient(180deg, #FFFFFF 40.63%, #48CAE4 100%);
+  background: linear-gradient(180deg, #FFFFFF 50%, #023e8a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -51,7 +51,7 @@ header{
   margin-top: 1.25rem;
   text-align: center;
   font-size: 1.6rem;
-  background: linear-gradient(180deg, #90E0EF 35.42%, rgba(255, 255, 255, 0) 97.4%);
+  background: linear-gradient(180deg, #FFFFFF 50%, #023e8a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: none;
@@ -69,9 +69,10 @@ header{
 .sections{
   min-height: 45vh;
   width: 75%;
-  background-color: var(--cobalt);
+  background-color: white;
 }
 .footer__container{
+  width: 100%;
   display: grid;
   justify-items: center;
   text-align: center;
