@@ -24,6 +24,7 @@ html{
 }
 body{
   background: linear-gradient(180deg, #03045E 0%, rgba(0, 161, 151, 0) 99.99%, rgba(202, 240, 248, 0) 100%) center no-repeat;
+  min-width: 320px;
 }
 .header__container{
   width: 100%;
